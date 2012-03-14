@@ -44,4 +44,9 @@ end
 group :test do
   gem 'rspec-rails', '2.8.0'
   gem 'webrat', '0.7.1'
+  gem 'autotest', '4.4.6'
+  gem 'autotest-fsevent'
+  gem 'autotest-standalone'
+  gem 'autotest-growl', '0.2.16'
+  gem 'autotest-rails-pure' , '4.1.2'
 end
